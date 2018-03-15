@@ -1,0 +1,129 @@
+div,ul,li,img,h3,span{padding: 0; margin: 0; }
+li{list-style: none;}
+
+/*header*/
+.top .logo{height: 60px;}
+.top .logo .logo_pic{display: flex;}
+.top .logo .logo_pic img{width: 100px; height: 40px; flex: none; margin-top: 10px;}
+.top .logo ul li{float: left; height: 60px; line-height: 60px; font-size: 14px;
+	width: 40%; text-align: center; color: #0B71B2;}
+.top .logo ul li.search{ margin-left:10%; width: 10%; color: #000;}
+.top .logo ul li.design{border:1px solid #D7E9F3; height: 30px; margin-top: 15px;
+	line-height: 30px; border-radius: 20px; width: 35%; margin-right: 5%;}
+.top .line{width: 134%; height: 1px; background: #F7F7F7; margin-left: -17%;}
+.top .menu{height: 50px; line-height: 50px; font-weight: bold; color: #000;}
+.top .menu .child:hover{color: #006EB4;}
+
+/*banner*/
+.banner{width: 100%;position: relative; margin: 0; padding: 0;}
+.banner img{width: 100%;}
+.banner h3{background: #000; color: #fff; font-weight: bold; position: absolute; left: 10%; top: 80%;
+	 width: 40%; height: 8%; line-height: 180%; text-align: center; font-size:150%;}
+.banner .cir{position: absolute; top: 85%; left: 80%;}
+.banner .cir ul li{width: 15px; height: 15px; background: #ccc; float: left; margin:5px;
+	border-radius: 15px;}
+.banner .cir ul li.on{background: #fff;}
+
+/*section*/
+.news{height: 100px; margin-top: 30px; color: #000;}
+.news ul li{list-style: disc;}
+.news ul li:hover{color: #f00;}
+
+.ad img{width: 100%;}
+.daodu{margin-top: 30px;}
+.daodu .title .tit{background: #fff; height: 40px; line-height: 30px; text-align: center;}
+.daodu .title .tit span{color: #fff; background: #ed0000; display: inline-block; 
+	 width: 50%; text-align: center; height: 30px; position: relative; margin-left: 10px;}
+.daodu .title .bg{width: 100%; height: 1px;	background:#DEDEDE; position: relative; top: 15px;}
+.daodu .content .left ul li{width: 80%;}
+.daodu .content .left ul li img{width: 100%;}
+.daodu .content .left ul li.bold{font-size: 18px; font-weight: bold; color: #000; padding-top: 20px;}
+.daodu .content .left ul li.bold:hover{color: #E50000;}
+.daodu .content .left ul li.dec{height: 50px; margin-top: 40px; font-size: 12px; color: #757575;}
+.daodu .content .mid ul li{height: 35px; line-height: 35px; width: 100%; font-size: 14px; color: #333; padding-left: 2%;}
+.daodu .content .mid ul li:hover{color: #e50000;}
+.daodu .content .right .hot{width: 30;height: 30px; line-height: 30px;padding-left: 2%; border-left: 4px solid #000; float: left;}
+.daodu .content .right .hot span{font-size: 25px; font-family: "微软雅黑"; color: #000;}
+.daodu .content .right .hot span.red{color: #CC181E;}
+.daodu .content .right .news_center{float: right; width: 20%; height: 25px; background: #F3F3F3;
+	border: 1px solid #ccc; line-height: 25px; text-align: center; border-radius: 5px;
+	font-size: 12px; color: #111; cursor: pointer;}
+.daodu .content .right .news_center:hover{background: #f9f9f9; color: #666;}
+.clear{clear: both;}
+.daodu .content .right dl{border-bottom: 1px dashed #DEDEDE; padding-bottom: 5px;}
+.daodu .content .right dl.on{margin-top: 20px;}
+.daodu .content .right dl dd{height: 22px; line-height: 30px; font-size: 12px; color:#757575; }
+.daodu .content .right dl dt:hover{color:#e50000;}
+
+.fengkeji{margin-top: 30px;}
+.fengkeji .title .left{padding-left: 40px; height: 35px;
+	background: url(../images/index_ico.png) no-repeat 0 -233px;}
+.fengkeji .title .left h3{display: inline-block; height: 35px; padding: 0; 
+	margin: 0; line-height: 35px; font-weight: bold;}
+.fengkeji .title .left span{margin-left: 15px;}
+.fengkeji .title .menu{ height: 35px;}
+.fengkeji .title .menu ul li{float: left; margin-left: 3%; position: relative; top: 13px;}
+.fengkeji .title .menu ul li:hover{color: #0090FF; border-bottom: 2px solid #0090FF;}
+.fengkeji .title .menu .end{font-size: 18px; color: #333; margin-left: 20%;}
+.fengkeji .pic{margin-top: 20px;}
+.fengkeji .pic .p{margin: 0 ; padding: 0;}
+.fengkeji .pic dl.pics{position: relative; width: 100%;}
+.fengkeji .pic dl dt img{width: 100%; height: 275px;}
+.fengkeji .pic dl.pics dd.text{position: absolute; top: 0; font-size: 20px; height: 25px;
+	color: #fff; background: rgba(0,0,0,.6); height: 275px; width: 100%;padding:200px 5% 0; }
+.fengkeji .pic dl dd.tips{width: 60px; text-align: center; height: 20px; line-height: 20px;
+	color:#fff; background: #F8C100; border-radius: 5px; position: absolute; top: 30px; left: 20px;}
+.fengkeji .pic dl dd.red{background: #FF0042;}
+.fengkeji .pic dl dd.blue{background: #007EFF;}
+.fengkeji .pic dl dd.bluer{background: #00D8FF;}
+
+.ads2 img{width: 100%;}
+.fengkeji .title .two{ height: 35px;}
+.fengkeji .title .two h3{display: inline-block; height: 35px; padding: 0;padding-left: 50px; 
+	margin: 0; line-height: 35px; font-weight: bold;
+	background: url(../images/index_ico.png) no-repeat 0 -115px;}
+.fengkeji .title .two span{margin-left: 15px;}
+.fengkeji .idea{margin-top: 20px;}
+.fengkeji .idea .left{position: relative;}
+.fengkeji .idea .left img{width: 100%; }
+.fengkeji .idea .left ul li.tips{width: 50px; text-align: center; height: 20px; line-height: 20px;
+	color:#fff; background: #007EFF; border-radius: 5px; position: absolute; top: 20px; left: 30px;}
+.fengkeji .idea .left li.name{ position: absolute; top: 100px; left: 50px;}
+.fengkeji .idea .left img.id_pic{width: 20px;}
+.fengkeji .idea .left li.name span{margin-left: 15px; color: #fff;}
+.fengkeji .idea .left li.tit{font-size: 20px; font-weight: bold; color: #fff;
+	position: absolute; top: 150px; left: 20px; width: 90%; padding:0 5%;}
+.fengkeji .idea .left li.lit_tit{font-size: 14px; color: #fff; width: 90%; padding: 0 5%;
+	position: absolute; top: 320px; left: 20px;}
+.fengkeji .idea dl dt span.tips{width: 50px; text-align: center; height: 20px; line-height: 20px;
+	color:#fff; background: #007EFF; border-radius: 5px;display: inline-block; 
+	font-weight: lighter;}
+.fengkeji .idea dl dt span.yellow{background: #F8C100;}
+.fengkeji .idea dl dt span.orange{background: #FB9A01;}
+.fengkeji .idea .c{margin: 0; padding: 0;}
+.fengkeji .idea dl{border: 1px solid #ccc; margin: 0; padding: 0; height: 247px;}
+.fengkeji .idea dl dt{margin-top: 30px; margin-left: 5%;}
+.fengkeji .idea dl dt img{width: 20px;}
+.fengkeji .idea dl dt div.name{display: inline-block; margin-left: 50%;}
+.fengkeji .idea dl dd.title{font-size: 20px; font-weight: bold; color: #000;
+	height: 40px; margin:30px 5%;}
+.fengkeji .idea dl dd.title:hover{color: #e50000;}
+.fengkeji .idea dl dd.text{font-size: 14px; color: #757575; padding: 20px 5% 34px;}
+
+
+/*footer*/
+.footer{padding: 0; margin: 0; background: #FAFAFA;}
+.footer .weiwei{padding-top: 250px; position: relative;}
+.footer .weiwei .left p{position: absolute; top: 20px; left: 35px; color: #fff;}
+.footer .weiwei .right{margin-top: -200px;}
+.footer .weiwei .right .top .tit{position: relative; top: -30px; }
+.footer .weiwei .right .top .tit .title{font-size: 18px;color: #000; font-weight: bold;}
+.footer .weiwei .right .top li{height: 30px; line-height: 30px;}
+.footer .weiwei .right .top li:hover{color: #e50000;}
+.footer .weiwei .right .bot{margin-top:60px;}
+
+@media (max-width: 768px){
+	.banner h3{display: none;}
+	.fengkeji .title .menu .end{display: none;}
+	.weiwei .left{display: none;}
+}

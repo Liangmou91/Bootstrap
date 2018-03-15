@@ -1,0 +1,73 @@
+div,ul,li,img,h3,span{padding: 0; margin: 0; }
+li{list-style: none;}
+.clear{clear: both;}
+
+/*header*/
+.top .logo{height: 60px;}
+.top .logo .logo_pic{display: flex;}
+.top .logo .logo_pic img{width: 100px; height: 40px; flex: none; margin-top: 10px;}
+.top .logo ul li{float: left; height: 60px; line-height: 60px; font-size: 14px;
+	width: 40%; text-align: center; color: #0B71B2;}
+.top .logo ul li.search{ margin-left:10%; width: 10%; color: #000;}
+.top .logo ul li.design{border:1px solid #D7E9F3; height: 30px; margin-top: 15px;
+	line-height: 30px; border-radius: 20px; width: 35%; margin-right: 5%;}
+.top .line{width: 134%; height: 1px; background: #F7F7F7; margin-left: -17%;}
+.top .menu{height: 50px; line-height: 50px; font-weight: bold; color: #000;}
+.top .menu .child:hover{color: #006EB4;}
+
+
+
+/*content*/
+.content{margin-top: 30px; height: 1500px;}
+.content .content_head ul li.fir{font-size: 10px; color: #0D5D8E;}
+.content .content_head ul li.news{font-size: 18px; font-weight: bold; color: #000;}
+.content .content_head ul li.thi{font-size: 10px; font-weight: bold; color: #0D5D8E; height: 30px;
+	line-height: 30px; border-bottom: 1px solid #F2F2F2;}
+.content .content_head ul li.tip{font-size: 10px; font-weight: bold; color: #000; height: 40px; line-height: 40px;}
+.content .content_head ul li.tip a{color: #000;}
+.content .content_head ul li.tip{font-size: 10px; font-weight: bold; color: #000; height: 40px; line-height: 40px;}
+.content .content_head ul li.tip a:hover{text-decoration:none; color: #006EB4;}
+.content .content_head ul li.ad{width: 100%;}
+.content .content_head ul li.ad img{width: 100%;}
+
+.content .content_body .t_menu{height: 200px; border-top: 2px solid #000; padding: 0;}
+.content .content_body .t_menu ul{height: 50px; width: 100%; line-height: 50px;}
+.content .content_body .t_menu ul li{width: 10%; float: left; text-align: center; height: 30px;
+	line-height: 30px;}
+.content .content_body .t_menu ul li.on{border-bottom: 2px solid #d8011f; color: #D8011F;}
+.content .content_body .t_menu ul li:hover{border-bottom: 2px solid #d8011f; color: #D8011F;}
+.content .content_body .t_menu dl{width: 100%; border-top: 1px ridge #ccc; height: 160px; padding: 2%  0;}
+.content .content_body .t_menu dl.end{border-bottom: 1px ridge #ccc;}
+.content .content_body .t_menu dl dt{float: right;}
+.content .content_body .t_menu dl dd.title{height: 50px; font-size: 20px; font-weight: bold;
+	color: #000; line-height: 50px; overflow: hidden;}
+.content .content_body .t_menu dl dd.dec{color: #757575; width: 65%;}
+.content .content_body .t_menu dl dd.time{margin-top: 5%; padding-left: 55%;}
+
+
+
+
+
+
+
+
+
+
+.content .content_body .t_side{height: 200px;}
+
+
+
+/*footer*/
+.footer{padding: 0; margin: 0; background: #FAFAFA;}
+.footer .weiwei{padding-top: 250px; position: relative;}
+.footer .weiwei .left p{position: absolute; top: 20px; left: 35px; color: #fff;}
+.footer .weiwei .right{margin-top: -200px;}
+.footer .weiwei .right .top .tit{position: relative; top: -30px; }
+.footer .weiwei .right .top .tit .title{font-size: 18px;color: #000; font-weight: bold;}
+.footer .weiwei .right .top li{height: 30px; line-height: 30px;}
+.footer .weiwei .right .top li:hover{color: #e50000;}
+.footer .weiwei .right .bot{margin-top:60px;}
+
+@media (max-width: 768px){
+	.weiwei .left{display: none;}
+}
